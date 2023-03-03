@@ -11,6 +11,7 @@ function App() {
       <Routes>
           <Route index element={<LoginPage />} />
           <Route path="/scanqr" element={<ScanQrPage />} />
+          <Route path="/Profile" element={<ScanQrPage />} />
           <Route path="/details" element={<DetailsPage />} />
       </Routes>
     </BrowserRouter>

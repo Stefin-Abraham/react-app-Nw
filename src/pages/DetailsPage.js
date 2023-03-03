@@ -3,7 +3,9 @@ import Details from '../components/Details/Details'
 
 function DetailsPage() {
   return (
-    <div><Details/></div>
+    <div>
+      <Details/>
+    </div>
   )
 }
 

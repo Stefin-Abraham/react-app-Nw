@@ -1,0 +1,11 @@
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-qr-scanner' in '/home/react-app/src/components/ScanQr'
+WARNING in [eslint] 
+src/components/ScanQr/ScanQr.js
+  Line 8:10:  'qrResult' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/components/ScanQr/ScanQr.js 7:0-40
+Module not found: Error: Can't resolve 'react-qr-scanner' in '/home/react-app/src/components/ScanQr'
+
+webpack compiled with 1 error and 1 warning
