@@ -1,0 +1,59 @@
+.ScanQrWrapper{
+    /* background-color: rgb(183, 243, 18); */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scanner_container_wrapper{
+    width: 230px;
+    /* background-color: aqua; */
+}
+
+.scanner_Container_div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+
+
+.scanner_container{
+    height: 150px;
+    border: 2px solid rgb(201, 201, 201);
+}
+.scanqr_txt{
+    color: rgb(83, 83, 83);
+    font-size: .9rem;
+}
+.or_txt{
+    font-weight: 700;
+    margin: 15px;
+    color: rgb(55, 55, 55);
+}
+
+.input_ticket{
+height: 25px;
+padding: 5px;
+font-size: .9rem;
+color: rgb(131, 131, 131);
+
+border: 1px solid rgb(158, 158, 158);
+border-radius: 5px;
+}
+
+.ticket_btn{
+    width: 100%;
+    height: 35px;
+    background-color:#6558F5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 15px;
+}
