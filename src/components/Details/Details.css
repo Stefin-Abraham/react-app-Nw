@@ -26,6 +26,7 @@ margin-bottom: 20px;
     width: 270px;
 
 }
+
 .save_btn{
     width: 100%;
     height: 35px;
@@ -34,6 +35,5 @@ margin-bottom: 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-
     margin-top: 30px;
 }

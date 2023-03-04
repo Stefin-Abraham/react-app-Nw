@@ -3,9 +3,7 @@ import ScanQr from '../components/ScanQr/ScanQr'
 
 function ScanQrPage() {
   return (
-    <div>
-      <ScanQr />
-    </div>
+    <div><ScanQr /></div>
   )
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Details.css";
+import { Link } from "react-router-dom";
 
 function Details() {
   return (
@@ -30,7 +31,9 @@ function Details() {
           id=""
           placeholder="Name"
         />
-        <button className="save_btn">Save details</button>
+        <Link to="/">
+          <button className="save_btn">Save details</button>
+        </Link>
       </div>
     </div>
   );

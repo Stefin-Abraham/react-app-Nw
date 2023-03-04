@@ -1,0 +1,41 @@
+.MyticketWrapper{
+       min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+.Myticket_Container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 270px;
+    text-align: center;
+
+}
+.myticket_txt{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.Previos_txt{
+    background-color: rgb(132, 132, 243);
+    color: white;
+    position: absolute;
+    top: 0;
+    position: sticky;
+}
+.selled_tickets{
+    position: relative;
+    border: solid 2px gray;
+    height: 200px;
+    line-height: 40px;
+    font-weight: 600;
+    color: gray;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+ 
+}
+.sell_new{
+    background-color: rgb(71, 29, 223);
+}

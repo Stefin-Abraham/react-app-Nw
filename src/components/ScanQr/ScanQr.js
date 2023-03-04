@@ -6,7 +6,6 @@ import './ScanQr.css';
 function ScanQr() {
   const [qrResult, setQrResult] = useState('');
   const [scannerEnabled, setScannerEnabled] = useState(false);
-
   const handleScan = (data) => {
     if (data) {
       setQrResult(data);

@@ -1,5 +1,4 @@
 .LoginWrapper{
-    /* background-color: rgb(86, 187, 49); */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -9,12 +8,9 @@
 .login_Container{
     display: flex;
     flex-direction: column;
-    /* background-color: aqua; */
     gap: 10px;
     width: 270px;
-
     text-align: center;
-
 }
 .ticker{
     font-size: 2rem;
@@ -24,15 +20,12 @@
 text-align: start;
 font-weight: 600;
 font-size: .9rem;
-
 }
-
 .login_input{
 height: 30px;
 padding: 5px;
 font-size: .9rem;
 color: rgb(131, 131, 131);
-
 border: 1px solid rgb(158, 158, 158);
 border-radius: 5px;
 }

@@ -1,14 +1,14 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth"
-
+import firebase from 'firebase';
+  
 const firebaseConfig = {
-  apiKey: "AIzaSyA_g5I0qPPo_2-e_JhqHCUtb9DsGEtYIo8",
-  authDomain: "qr-code-auth-9ff6a.firebaseapp.com",
-  projectId: "qr-code-auth-9ff6a",
-  storageBucket: "qr-code-auth-9ff6a.appspot.com",
-  messagingSenderId: "289414191918",
-  appId: "1:289414191918:web:0652199c5ba088498338bf"
+    apiKey: "AIzaSyD6VOTOZvTNzcGpekT6F1gdD6eD8gNWvR0",
+    authDomain: "ticket-3d115.firebaseapp.com",
+    projectId: "ticket-3d115",
+    storageBucket: "ticket-3d115.appspot.com",
+    messagingSenderId: "749510324276",
+    appId: "1:749510324276:web:a1abf24a343de940079a61"
 };
-
-const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
+  
+firebase.initializeApp(firebaseConfig);
+var auth = firebase.auth();
+export {auth , firebase};
