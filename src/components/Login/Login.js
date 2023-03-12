@@ -12,6 +12,9 @@ function Login() {
   const [otp, setotp] = useState("");
   const [final, setfinal] = useState("");
 
+  /*
+  
+  */
   const signin = () => {
     if (fnum === "" || fnum.length < 10) return;
     let verify = new firebase.auth.RecaptchaVerifier("recaptcha-container");
@@ -19,10 +22,9 @@ function Login() {
       .signInWithPhoneNumber(fnum, verify)
       .then((result) => {
         setfinal(result);
-        alert(`Otp sended on your phone ${fnum}`);
+        alert(`Otp sent to your phone ${fnum}`);
       })
       .catch((err) => {
-        alert(err);
         window.location.reload();
       });
   };
@@ -32,7 +34,6 @@ function Login() {
     final
       .confirm(otp)
       .then((result) => {
-        alert("Verified");
         navigate("/Myticket");
       })
       .catch((err) => {

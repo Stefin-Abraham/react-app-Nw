@@ -49,7 +49,6 @@ function ScanQr() {
           </Link>
         </div>
       </div>
-
       {qrResult && <p>{qrResult}</p>}
     </div>
   );
